@@ -12,6 +12,8 @@ input{
    display: flex;
    gap: 10px;
    align-items: center;
+   width: 280px;
+   flex-wrap: wrap;
    margin-bottom: 10px;
 }
 .tableau{
@@ -22,4 +24,13 @@ input{
 th,td{
     border: 1px solid black;
     padding: 8px 10px;
+}
+.homme, .femme{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.homme{
+    display: flex;
+    justify-content: flex-start;
 }
