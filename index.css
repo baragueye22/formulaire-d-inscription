@@ -1,0 +1,25 @@
+.container{
+    border: 1px solid black;
+   width: 280px; 
+   background-color: rgb(248, 244, 239);
+   padding: 15px;
+   height: auto;
+}
+input{
+    width: 270px;
+}
+.checkbox{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.tableau{
+    border: 1px solid rgb(138, 134, 134);
+    height: auto;
+    width: 600px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px 10px;
+}
